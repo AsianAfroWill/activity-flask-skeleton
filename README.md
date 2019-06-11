@@ -21,10 +21,6 @@ pg_ctl -D post.db -l logfile start
 psql postgres
 ```
 
-```sql
-create table activities ( timestamp integer, throughput integer, client varchar(255), path varchar(65535) );
-```
-
 # Interview expectations
 
 1. Create a schema
