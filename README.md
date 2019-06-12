@@ -3,6 +3,23 @@
 Install Postgres
 https://www.postgresql.org/download/
 
+```
+sudo apt install postgresql
+```
+
+Install dependencies
+
+```
+sudo apt install python3-flask
+sudo apt install libpq-dev
+```
+
+Install pip3 things
+```
+pip3 install sqlalchemy
+pip3 install psycopg2
+```
+
 # To run
 
 ## Flask
@@ -31,7 +48,7 @@ psql postgres
 
 # Expected data
 
-```json
+```
 {
   timestamp: number,
   throughput: number,
